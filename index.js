@@ -51,20 +51,20 @@ const { ind } = require('./bahasa')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' // JANGAN DI GANTI YAK
             + 'VERSION:3.0\n' // JANGAN DI GANTI YAK
-            + 'FN:Ari\n' // GANTI JADI NAMA KAMU
-            + 'ORG: Ara;\n' // GANTI JADI NAMA BOT KAMU
-            + 'TEL;type=CELL;type=VOICE;waid=6283803728334:+62 838-0372-8334\n' // GANTI NOMOR YG MAU JADI OWNER TAPI JANGAN RUBAH POLANYA
+            + 'FN:Fia\n' // GANTI JADI NAMA KAMU
+            + 'ORG: Fia;\n' // GANTI JADI NAMA BOT KAMU
+            + 'TEL;type=CELL;type=VOICE;waid=628885990097:+62 888-5990-097\n' // GANTI NOMOR YG MAU JADI OWNER TAPI JANGAN RUBAH POLANYA
             + 'END:VCARD'
 prefix = '.' // TERSERAH MAU DI GANTI APA KAGA
 blocked = []   // BIARIN AJA BEGINI
 limitawal = 30 // SERAH MAU GANTI APA KAGA
 memberlimit = 1 // SERAH MAU GANTI APA KAGA
-cr = '*Ara*' // GANTI NAMA BOT KAMI
+cr = '*Fia*' // GANTI NAMA BOT KAMI
 ari = '*SABAR SAYANG*' // TERSERAH MAY GANTI APA KAGA
-onama = '*Ari*' // GANTI NAMA KAMU
+onama = '*Fia*' // GANTI NAMA KAMU
 /******** OWNER NUMBER**********/
-const ownerNumber = ["6283803728334@s.whatsapp.net"]   // GANTI DENGAN NOMOR OWNER KAMU
-const pacarNumber = ["6285852335038@s.whatsapp.net"]  // GANTI DENGAN NOMOR BOT KAMU
+const ownerNumber = ["628885990097@s.whatsapp.net"]   // GANTI DENGAN NOMOR OWNER KAMU
+const pacarNumber = ["6281325884432@s.whatsapp.net"]  // GANTI DENGAN NOMOR BOT KAMU
 /************************************/
 
        
