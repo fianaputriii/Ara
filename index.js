@@ -1971,7 +1971,7 @@ ara.on('group-participants-update', async (anu) => {
     case 'creator':
     case 'developer':
              ara.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: raa})
-             ara.sendMessage(from, 'Tuh nomer owner ara, jangan lupa di save',MessageType.text, { quoted: raa} )
+             ara.sendMessage(from, 'Tuh nomer owner fia, jangan lupa di save',MessageType.text, { quoted: raa} )
 		break    
     case 'admin':
 	    if (!isOwner) return reply(ind.ownerb())
