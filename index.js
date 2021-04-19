@@ -51,8 +51,8 @@ const { ind } = require('./bahasa')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' // JANGAN DI GANTI YAK
             + 'VERSION:3.0\n' // JANGAN DI GANTI YAK
-            + 'FN:Fia\n' // GANTI JADI NAMA KAMU
-            + 'ORG: Fiana.pu;\n' // GANTI JADI NAMA BOT KAMU
+            + 'FN:Fiana.pu\n' // GANTI JADI NAMA KAMU
+            + 'ORG: Fia;\n' // GANTI JADI NAMA BOT KAMU
             + 'TEL;type=CELL;type=VOICE;waid=628885990097:+62 888-5990-097\n' // GANTI NOMOR YG MAU JADI OWNER TAPI JANGAN RUBAH POLANYA
             + 'END:VCARD'
 prefix = '.' // TERSERAH MAU DI GANTI APA KAGA
