@@ -19,7 +19,7 @@ exports.noregis = () => {
 }
 
 exports.rediregis = () => {
-	return`*「 SUDAH TERDAFTAR 」*\n\n*Kamu sudah terdaftar di database Ara*`
+	return`*「 SUDAH TERDAFTAR 」*\n\n*Kamu sudah terdaftar di database Fia*`
 }
 
 exports.stikga = () => {
@@ -35,19 +35,19 @@ exports.groupo = () => {
 }
 
 exports.ownerb = () => {
-	return`*LU OWNER??*`
+	return`*「OWNER ONLY」*`
 }
 
 exports.ownerg = () => {
-	return`*LU OWNER??*`
+	return`「OWNER ONLY」`
 }
 
 exports.admin = () => {
-	return`*LU ADMIN??*`
+	return`「ADMIN ONLY」`
 }
 
 exports.badmin = () => {
-	return`*GUA BUKAN ADMIN NGEMTOD*`
+	return`「BOT HARUS JADI ADMIN」`
 }
 
 exports.nsfwoff = () => {
@@ -55,7 +55,7 @@ exports.nsfwoff = () => {
 }
 
 exports.bug = () => {
-	return`*Masalah telah di laporkan ke owner Araツ, Laporan palsu atau main² tidak akan ditanggapi.*`
+	return`*Masalah telah di laporkan ke owner Fiaツ, Laporan palsu atau main² tidak akan ditanggapi.*`
 }
 
 exports.wrongf = () => {
