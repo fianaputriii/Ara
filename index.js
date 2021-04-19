@@ -52,7 +52,7 @@ const { ind } = require('./bahasa')
 const vcard = 'BEGIN:VCARD\n' // JANGAN DI GANTI YAK
             + 'VERSION:3.0\n' // JANGAN DI GANTI YAK
             + 'FN:Fia\n' // GANTI JADI NAMA KAMU
-            + 'ORG: Fia;\n' // GANTI JADI NAMA BOT KAMU
+            + 'ORG: Fiana.pu;\n' // GANTI JADI NAMA BOT KAMU
             + 'TEL;type=CELL;type=VOICE;waid=628885990097:+62 888-5990-097\n' // GANTI NOMOR YG MAU JADI OWNER TAPI JANGAN RUBAH POLANYA
             + 'END:VCARD'
 prefix = '.' // TERSERAH MAU DI GANTI APA KAGA
@@ -1264,7 +1264,7 @@ ara.on('group-participants-update', async (anu) => {
 
 ► Name : ${ara.user.name}
 ► Nomor Bot : @${me.jid.split('@')[0]}
-► Owner : Ari
+► Owner : ${onama}
 ► Prefix : [ ${prefix} ]
 ► Total Block Contact : ${blocked.length}
 ► The bot is active on :
@@ -1319,10 +1319,10 @@ ara.on('group-participants-update', async (anu) => {
 		teks += `*Total* : ${blocked.length}`
 		ara.sendMessage(from, teks.trim(), extendedText, {quoted: raa, contextInfo: {"mentionedJid": blocked}})
 		break
-    case 'ara':
+   /* case 'ara':
     	if (!isOwner) return reply('Lu siapa?')
         reply(`*Nandayo ${pushname} ^_^*`)
-    	break
+    	break*/
 	case 'buypremium':
 	    if (!isRegistered) return reply( ind.noregis())
 	    if (isBanned) return reply('Lu kebanned tolol!')
@@ -2425,7 +2425,7 @@ ara.on('group-participants-update', async (anu) => {
 			ara.sendMessage(from, 'Pertanyaan : *'+rate+'*\n\nJawaban : '+ te+'%', text, { quoted: raa })
 			await limitAdd(sender)
 		break
-    case 'fitnah':
+  /*  case 'fitnah':
 		if (isBanned) return reply('Maaf kamu sudah terbenned!')
 	    if (!isGroup) return reply(ind.groupo())                 
 		if (args.length < 1) return reply(`Masukkan teks \nContoh : ${prefix}fitnah @tagmember&hallo&hallo juga`)
@@ -2436,7 +2436,7 @@ ara.on('group-participants-update', async (anu) => {
 		var bot = gh.split("&")[2];
 			ara.sendMessage(from, `${bot}`, text, {quoted: { key: { fromMe: false, participant: `${mentioned}`, ...(from ? { remoteJid: from } : {}) }, message: { conversation: `${target}` }}})
 			await limitAdd(sender) 
-		break		
+		break		*/
 	case 'alay':
         if (!isRegistered) return reply( ind.noregis())
 		if (isLimit(sender)) return reply(ind.limitend(pusname))
@@ -3682,13 +3682,13 @@ ara.on('group-participants-update', async (anu) => {
 					ara.updatePresence(from, Presence.composing)
 					reply(`*LU NGAPA TAG GUA NGENTOD, ${pushname} GW OUT!!*`)
 					}, 0)
-				}
+				}*/
          if (body.startsWith(`${prefix}${command}`)) {
         reply(`*${pushname}*, Command *${prefix}${command}* Tidak Ada Di Dalam *${prefix}menu* ${cr}`)
-		const none = fs.readFileSync('./mp3/ara.mp3');
-		ara.sendMessage(from, none, MessageType.audio, {quoted: raa, mimetype: 'audio/mp4', ptt:true})
+	//	const none = fs.readFileSync('./mp3/ara.mp3');
+	//	ara.sendMessage(from, none, MessageType.audio, {quoted: raa, mimetype: 'audio/mp4', ptt:true})
 
-			  }*/
+			  }
 
 			if (isGroup && !isCmd && isSimi && budy != undefined) {
 						console.log(budy)
